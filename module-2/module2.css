@@ -1,0 +1,80 @@
+
+/*css file for the module 2 */
+body{
+backgroung-color: gray;
+}
+h1{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+h2{
+	color: black
+	margin-left: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*headlines*/
+
+div.h2Chicken{
+	background-color: pink;
+	height: 1px;
+	width:15px;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	border-top: 1px dotted black;
+}
+
+div.h2Beef{
+	background-color: red;
+	height: 1px;
+	width:15px;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	border-top: 1px solid black;
+}
+
+div.h2Sushi
+	background-color: yellow;
+	height: 1px;
+	width:15px;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	border-top: 1px dotted black;
+}
+
+/*note that this is for the boxes*/
+div.pChicken{
+	border: 2px solid black;
+	outline-style: solid;
+	outline-color:blue;
+	max-width: 500px;
+	margin:auto;
+	float: left;
+	width: 33,33%;
+	padding: 50px;
+}
+div.pBeef{
+	border: 2px solid black;
+	outline-style:dotted;
+	outline-color: blue
+	max-width: 500px;
+	margin: auto;
+	float: center;
+	width: 33,33%
+	padding: 50px;
+}
+div.pSushi{
+	border: 2px solid black;
+	outline-color: blue
+	outline-style:dotted;
+	max-width: 500px;
+	margin:auto;
+	float:right;
+	width: 33,33%;
+	padding: 50px;
+}
